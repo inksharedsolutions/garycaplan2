@@ -1,5 +1,5 @@
 .footer-section {
-    background: #191818;
+    background: linear-gradient(to bottom, #a59c8d 0, #2e2a27);
     padding: 5% 9%;
     margin: 0 auto;
 
@@ -66,7 +66,7 @@
         li {
             a {
                 // text-transform: uppercase;
-                color:  #a92929 !important;
+                color:  #ffffff !important;
                 font-size: 13px;
                 margin-bottom: 9px;
                 display: block;
@@ -86,6 +86,7 @@
     p {
         margin: 1.1em 0 !important;
         font-size: 14px;
+        color: #f1f1f1;
     }
 }
 
@@ -99,6 +100,7 @@
 
     p {
         font-size: 13px;
+        color: #ffff;
     }
 
     img {

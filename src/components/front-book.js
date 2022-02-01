@@ -10,9 +10,9 @@ const MidBook = (props) => {
 
                     <div className="grid-two-columns" id="wrapper-two-books">
 
-                            <div className="book-wraps">
-                                <img src={FrontBook} alt="book-img"/>
-                            </div>
+                        <div className="book-wraps">
+                            <img src={FrontBook} alt="book-img" />
+                        </div>
 
                         <div className="content-wraps">
 
@@ -26,7 +26,7 @@ const MidBook = (props) => {
                             </h1>
 
                             <p>
-                            Justice forever lost. Revenge needed found.
+                            Gary Caplan was born in Philadelphia and earned three bachelor’s degrees from the University of Pittsburgh, later earning M.D. and M.P.H. degrees. He serves as a colonel and preventive medicine officer in the reserves and has published articles in medical journals. Caplan became interested in reading science fiction and fantasy books as a young man and, after practicing medicine for several years, began to write his own fiction. At first strictly a hobby, his writing flourished and he decided to publish both a science fiction and sword and sorcery novels in his spare time.
                             </p>
 
                             <button className="btn-book-featured">
@@ -34,7 +34,7 @@ const MidBook = (props) => {
                                     Read More
                                 </Link>
                             </button>
-                        
+
 
                         </div>
                     </div>

@@ -43,10 +43,10 @@
     background-size: cover;
     // background: #e6e6e6;
     height: 50vh;
-    
 
 
-    
+
+
 }
 
 .flex-container {
@@ -66,20 +66,20 @@
             display: block;
             height: 4px;
             margin: 7px 0px;
-            
+
         }
 
         position: relative;
         font-size:40px;
-        // margin: 0 3em;
-        color: rgb(255, 255, 255) !important;
+        font-weight: 800;
+        color: #27396b !important;
         // text-shadow: 1px 1px black;
         padding-top: 0;
         text-align: center;
     }
 
     &:before {
-        content: "AUTHOR";
+        // content: "";
         position: absolute;
         font-size: 11em;
         font-weight: 900;
@@ -89,7 +89,7 @@
         transform: translate(80%, 0%);
     }
 
-    span{
+    span {
         color: white;
     }
 }
@@ -103,7 +103,8 @@
     text-align: center;
     position: relative;
     z-index: 2;
-    background: linear-gradient(to bottom, #ffffff 0, #dfdfdf);;
+    background: linear-gradient(180deg, #2e2a27 0, #2e2a27);
+    ;
 
     h1 {
 
@@ -113,6 +114,7 @@
         line-height: 1;
         margin-top: 5%;
         padding-bottom: 30px;
+        // color: #27396b;
     }
 
     .middle-params {
@@ -132,9 +134,8 @@
 }
 
 .upper-main-author {
-    
-    background:#dfdfdf;
 
+    background: linear-gradient(180deg, #2e2a27 0, #a59c8d);
     padding: 5% 0;
     text-align: center;
     position: relative;
@@ -163,60 +164,62 @@
         align-items: center;
         text-align: justify;
     }
-     
- 
 
-   
+
+
+
 }
 
 .mid-main {
 
     text-align: center;
     padding: 4% 0;
-    background: #ffffff38;
-        
+    background: linear-gradient(to bottom, #a59c8d 0, #a59c8d);
+
 
     h1 {
         font-size: 3.5em;
         text-transform: uppercase;
         font-weight: 900;
     }
-  
+
 
     .middle-params {
         width: 100%;
         margin: 0 auto !important;
     }
-    
-    #events2{
+
+    #events2 {
         padding-top: 60px;
     }
 
-    
+
 
     li {
         list-style-type: none;
-        
+
 
         img {
             width: 80%;
         }
-        
+
     }
 
     #logos-col {
         margin: 6% 0;
-      .strattonlogo  {
+
+        .strattonlogo {
             width: 90%;
         }
     }
-    .gallery{
-        
+
+    .gallery {
+
         white-space: nowrap;
         margin: 50px auto 0;
         max-width: 1000px;
 
-        img{
+        img {
             display: inline-block;
             height: 300px;
             padding: 0 1%;
@@ -337,19 +340,23 @@
     span {
 
         // &:nth-child(2) {
+        color: #ffff;
         font-family: "augusta-free";
         text-transform: capitalize !important;
         // }
     }
 }
-.author-name{
-    .ata-name{
-        margin: 0 90px;
-        // position:absolute;
-        // left: 420px;
-      
-        
+
+.author-name {
+
+    .author-span-ft {
+        color: #ffff;
     }
+
+    .ata-name {
+        margin: 0 90px;
+    }
+
 }
 
 .author-tagline {
@@ -532,10 +539,10 @@
     display: block;
     font-size: 25px;
     margin-top: 8px;
-    color:#fb7e35 !important;
+    color: #fb7e35 !important;
     padding-bottom: 20px;
-    
-    
+
+
 
 
     &:before {
@@ -741,19 +748,21 @@
 
 
 }
+
 .article-section {
     p {
         line-height: 2.2;
-        color: #535353;
+        color: #ffffff;
         margin-bottom: 2em;
         text-align: justify;
         font-size: 1.3em;
     }
 }
 
-.author-name{
+.author-name {
     text-align: left;
 }
+
 #author-image-container {
     img {
         width: 400px;
@@ -790,32 +799,34 @@
     }
 
 }
-.testimonial-blocks{
-    
+
+.testimonial-blocks {
+
     max-width: 1150px;
     margin: 5em auto;
 
-    .grid-block-wrapper{
+    .grid-block-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 3em;
 
-        .swal2-shown{
+        .swal2-shown {
             font-size: 10px;
         }
 
-        .testimonial-block-element{
+        .testimonial-block-element {
 
 
             padding: 5em 0;
             background: #48c7690d;
-            p{
+
+            p {
                 font-size: 15px;
                 padding: 20px;
                 text-align: justify;
             }
-            
-            h2{
+
+            h2 {
                 font-size: 20px;
                 font-weight: bold;
                 color: #000;
@@ -823,7 +834,7 @@
                 padding-left: 20px;
             }
 
-            .testimonial-author{
+            .testimonial-author {
                 font-size: 15px;
                 // border-bottom: 1px solid #ffc869;
                 color: #dc910e !important;
@@ -831,23 +842,23 @@
             }
 
 
-            .testimonial-num{
+            .testimonial-num {
                 padding: 25px;
                 background: #fb731bba;
                 position: absolute;
                 transform: translate(-35px, -108px);
                 font-size: 1.7em;
                 font-weight: bold;
-                color: #363636!important;
+                color: #363636 !important;
                 box-shadow: -3px 1px 33px 6px #a9a9a930;
             }
 
 
-            &:nth-child(2){
+            &:nth-child(2) {
                 margin-top: 20px;
             }
 
-            &:nth-child(3){
+            &:nth-child(3) {
                 margin-top: 40px;
             }
         }
@@ -855,31 +866,31 @@
     }
 }
 
-.book-contents{
+.book-contents {
     padding: 0 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
-    h1{
+    h1 {
         font-size: 5rem;
         font-weight: 900;
         color: #000;
         text-transform: uppercase;
     }
 
-    span{
+    span {
         letter-spacing: 5px;
         margin-bottom: 1em;
     }
 
-    button{
+    button {
 
         width: 242px;
         margin-top: 4rem;
         padding: 20px;
 
-         &:before{
+        &:before {
             content: '';
             width: 1px;
             height: 41px;
@@ -887,16 +898,16 @@
             display: block;
             transform: translate(95px, -60px);
             background: #eac071;
-         }
+        }
     }
 }
 
-.testimonial-section{
+.testimonial-section {
 
     height: 300px;
     padding-top: 60px;
 
-    h1{
+    h1 {
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -904,11 +915,11 @@
         height: 100%;
         font-size: 4em;
         font-weight: bold;
-        color: #000; 
+        color: #000;
         position: relative;
         z-index: 10;
 
-        span{
+        span {
             margin: 0 auto;
             max-width: 1000px;
             background: #48c76970;
@@ -928,7 +939,5 @@
         //     max-width: 500px;
         // }
     }
-    
+
 }
-
-

@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
@@ -14,97 +13,115 @@
 
 /*Fonts Declaration*/
 @font-face {
-    font-family:"augusta-free"; /*a name to be used later*/
-    src: url("../../../static/fonts/august_free_bold.ttf") format('truetype'); /*URL to font*/
+    font-family: "augusta-free";
+    /*a name to be used later*/
+    src: url("../../../static/fonts/august_free_bold.ttf") format('truetype');
+    /*URL to font*/
     // font-weight: normal;
 }
+
 @font-face {
-    font-family:"Aneisha demo"; /*a name to be used later*/
+    font-family: "Aneisha demo";
+    /*a name to be used later*/
     src: url("../../../static/font/Aneishademo.ttf") format('truetype');
 }
+
 @font-face {
-    font-family:"BKANT"; /*a name to be used later*/
+    font-family: "BKANT";
+    /*a name to be used later*/
     src: url("../../../static/font/bkant.ttf") format('truetype');
 }
 
 @font-face {
-    font-family:"Tangerine"; /*a name to be used later*/
+    font-family: "Tangerine";
+    /*a name to be used later*/
     src: url("../../../static/font/Tangerine_Regular.ttf") format('truetype');
 }
 
 
 @font-face {
-    font-family:"NaftaLight"; /*a name to be used later*/
+    font-family: "NaftaLight";
+    /*a name to be used later*/
     src: url("../../../static/font/___NaftaLight-Regular.ttf") format('truetype');
 }
 
 @font-face {
-    font-family:"three"; /*a name to be used later*/
+    font-family: "three";
+    /*a name to be used later*/
     src: url("../../../static/font/_Threefortysixbarrel.ttf") format('truetype');
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif !important;
     margin: 0 auto;
     box-sizing: border-box;
 }
 
-h1,h2{
+h1,
+h2 {
     font-size: 1.6em;
     color: #85161b !important;
 }
 
-h3,h4{
+h3,
+h4 {
     font-size: 1.2em;
 }
 
-h5,h6{
+h5,
+h6 {
     font-size: 1.0em;
 }
 
 
-p,a,qoute,span,blockquote{
+p,
+a,
+qoute,
+span,
+blockquote {
     font-size: 1.3em;
     // color: #7b7b7bee !important;
 }
 
-a{
-    color:#000 !important;
+a {
+    color: #000 !important;
 }
 
-p{
+p {
     line-height: 1.7;
     margin: 2.2em 0;
     color: #6b6b6b;
 }
 
-label{
+label {
     color: #636262;
 }
 
 
 
-button{
+button {
     // background-color: #1d2e7e;
     border: none;
     padding: 2% 20px;
     margin-top: 6%;
-    a{
+
+    a {
         color: #fff !important;
         text-decoration: none;
         cursor: pointer;
         font-size: 15px;
     }
 }
+
 // #author-contents{
-    
+
 //         .btn-book-featured {
 //             background: none;
 //             border: 2px solid #8ba1d0;
 //             border-radius: 40px;
 //             padding: 2% 16%;
 //             margin-top: 5%;
-            
+
 //             a{
 //                 text-transform: uppercase;
 //                 color: #8ba1d0 !important;
@@ -113,25 +130,25 @@ button{
 //                 background-color: #8ba1d0;
 //                 a
 //                 {color: white !important;
-                
+
 //                 }
 //             }
 //         }
-    
-    
+
+
 // }
 
 
 
-.btn-book-featured{
-    
+.btn-book-featured {
+
     background: none;
     border: 2px solid #c0c0c0;
     border-radius: 40px;
     padding: 2% 16%;
     margin-top: 5%;
 
-    a{
+    a {
         text-transform: uppercase;
         color: hsl(0, 0%, 27%) !important;
     }
@@ -141,40 +158,51 @@ button{
     //     a{
     //         color: white !important;
     //     }
-    // }
+    // }r
 }
-button{
-    #authorbtn {
-    background: none;
-    border: 2px solid #c0c0c0;
-    border-radius: 40px;
-    padding: 2% 16%;
-    margin-top: 5%;
-    
-    a{
-        text-transform: uppercase;
-        color: #474747 !important;
+
+.content-wraps {
+    .italic-tag {
+        color: #ffff;
     }
 
-    // &:hover{
-    //     background-color: hsl(49, 79%, 68%);
-    //     a{
-    //         color: white !important;
-    //     }
-    // }
-    
+    p {
+        color: #ffff;
+    }
 }
 
+button {
+    #authorbtn {
+        background: none;
+        border: 2px solid #c0c0c0;
+        border-radius: 40px;
+        padding: 2% 16%;
+        margin-top: 5%;
+
+        a {
+            text-transform: uppercase;
+            color: #474747 !important;
+        }
+
+        // &:hover{
+        //     background-color: hsl(49, 79%, 68%);
+        //     a{
+        //         color: white !important;
+        //     }
+        // }
+
+    }
+
 }
 
 
 
-// #___gatsby{
-    // background: #1F1F21;
-// }
+#___gatsby {
+    background: linear-gradient(to bottom, #2e2a27 0, #fdfdfd);
+}
 
 /*Grid Elements*/
-.grid-two-columns{
+.grid-two-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: auto;
@@ -182,16 +210,17 @@ button{
     align-items: center;
 }
 
-.grid-template-four-col{
+.grid-template-four-col {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
 }
 
-.container-gt{
+.container-gt {
     max-width: 1400px;
-    margin:0 auto;
+    margin: 0 auto;
 }
+
 // .heading-quote{
 //     h4{
 //         margin: 0 5%;

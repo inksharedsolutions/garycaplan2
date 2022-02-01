@@ -30,42 +30,42 @@ const ATB = (props) => {
                                     alt="_main_author" />
                             </div>
 
-                            <div className="heading-quote">
+                            {/* <div className="heading-quote">
                                 <h4>
-                                - “What other’s think of me is none of my business.” And “When struggling with a decision, ask yourself this, ‘what is really going to mean a hundred years from now?"
-                                <br/>
+                                    - “What other’s think of me is none of my business.” And “When struggling with a decision, ask yourself this, ‘what is really going to mean a hundred years from now?"
+                                    <br />
 
                                 </h4>
                                 <p>
-                                    <span className="author-name">
-                                        {/* <span className="author-span-ft">Author | Writer </span> */}
-                                        {/* <span className="ata-name">James Bosley</span> */}
+                                    <spa className="author-name"></spa
+                                         <span className="author-span-ft">Author | Writer </span> 
+                                        <span className="ata-name">James Bosley</span>
                                     </span>
                                 </p>
-                            </div>
+                            </div> */}
                         </div>
 
-                        
+
                         <article className="article-section column" id="author">
 
-                        <p>
-                        I consider myself more of an intense storyteller rather than a strict structured writer. I believe that an overabundance of narratives and details rather than actions lead to lost of interest for the reader. I described the characters enough physically and personality wise for the reader to develop their own outlook on individuals involved in the novel without me, the author, holding their hands along the way. I believe the strength of my fiction novels are the actions and adventures faced by those involved in the plot of the story. I attempt to place the readers on the edge of their seat throughout four hundred pages or more with adversity, hurdles, failures, ensuring, delivering, setbacks, paybacks, enemies, allies, friends, foes, beliefs dismissed, new horizons found, doubts revealed, confidence restored, skirmishes lost, and battles won. And in the end of every mood, every error, every triumph, and every resolution all equal two words = Merely Human.         </p>
+                            <p>
+                                I consider myself more of an intense storyteller rather than a strict structured writer. I believe that an overabundance of narratives and details rather than actions lead to lost of interest for the reader. I described the characters enough physically and personality wise for the reader to develop their own outlook on individuals involved in the novel without me, the author, holding their hands along the way. I believe the strength of my fiction novels are the actions and adventures faced by those involved in the plot of the story. I attempt to place the readers on the edge of their seat throughout four hundred pages or more with adversity, hurdles, failures, ensuring, delivering, setbacks, paybacks, enemies, allies, friends, foes, beliefs dismissed, new horizons found, doubts revealed, confidence restored, skirmishes lost, and battles won. And in the end of every mood, every error, every triumph, and every resolution all equal two words = Merely Human.         </p>
 
-                        
-                            
+
+
                             <p>
                                 <span className="author-name">
                                     <span className="author-span-ft">Author | Writer </span>
                                     <span className="ata-name">James Bosley</span>
                                 </span>
-                            </p> 
+                            </p>
 
                         </article>
                     </section>
                 </div>
 
                 {/* <Event /> */}
-                
+
 
             </Layout>
         </>
