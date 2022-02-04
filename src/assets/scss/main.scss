@@ -141,27 +141,20 @@ button {
 
 
 .btn-book-featured {
-
     background: none;
-    border: 2px solid #c0c0c0;
+    border: 2px solid #ffff;
     border-radius: 40px;
     padding: 2% 16%;
     margin-top: 5%;
 
     a {
         text-transform: uppercase;
-        color: hsl(0, 0%, 27%) !important;
+        color: hsl(0, 0%, 100%) !important;
     }
-
-    // &:hover{
-    //     background-color: hsl(49, 79%, 68%);
-    //     a{
-    //         color: white !important;
-    //     }
-    // }r
 }
 
 .content-wraps {
+    
     .italic-tag {
         color: #ffff;
     }
