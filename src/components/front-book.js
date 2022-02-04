@@ -26,7 +26,7 @@ const MidBook = (props) => {
                             </h1>
 
                             <p>
-                            Gary Caplan was born in Philadelphia and earned three bachelor’s degrees from the University of Pittsburgh, later earning M.D. and M.P.H. degrees. He serves as a colonel and preventive medicine officer in the reserves and has published articles in medical journals. Caplan became interested in reading science fiction and fantasy books as a young man and, after practicing medicine for several years, began to write his own fiction. At first strictly a hobby, his writing flourished and he decided to publish both a science fiction and sword and sorcery novels in his spare time.
+                            Do you like Epic fantasy, do you like adventures that leave you hanging in the edge of your seat? then you will really enjoy reading Prince Gideon.
                             </p>
 
                             <button className="btn-book-featured">

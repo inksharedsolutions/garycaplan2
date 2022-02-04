@@ -41,7 +41,7 @@
         }
     }
     .banner-text .bannertxt {
-        padding-left: 100px;
+        // padding-left: 100px;
         font-size: 40px;
     }
 
@@ -55,7 +55,7 @@
 @media screen and (max-width : 1620px){
 
     .banner-text{
-        margin-left: 26em;
+        // margin-left: 26em;
 
         h1{
             font-size: 7em;
@@ -72,7 +72,7 @@
 @media screen and (max-width : 1460px){
 
     .banner-text{
-        margin-left: 23em;
+        // margin-left: 23em;
 
         h1{
             font-size: 7em;
@@ -156,7 +156,7 @@
         height: 100vh;
     }
     .banner-text .bannertxt{
-        padding-left: 0px;
+        // padding-left: 0px;
     }
     #author-image-container img{
         width: 370px;
@@ -190,8 +190,9 @@
             span{
                 font-size:80px;
             }
-            padding-left: 0px  ;
-            padding-top: 15em; }       
+            // padding-left: 0px  ;
+            // padding-top: 15em; 
+        }       
                
     
         }
@@ -281,13 +282,14 @@
             h1{
                 font-size: 5.5em;
                 letter-spacing: 8px;
-                padding-top: 25rem;   //85px
+                // padding-top: 25rem;   //85px
             } 
             span{
                 font-size: 55px;
             }
-            padding-left: 0  ;
-            padding-top: 1em; }       
+            // padding-left: 0  ;
+            // padding-top: 1em; 
+        }       
                
     
         }
@@ -585,10 +587,9 @@
         justify-content: end;
     }
 
-    .banner-text{
-
-        margin-left: 0;
-    }
+    // .banner-text{
+    //     margin-left: 0;
+    // }
     .container-gt{
         max-width: 750px;
        
@@ -714,7 +715,7 @@
     }
 
     .container-gt .grid-child-elem #bannercontent h1{
-        padding-left: 400px;
+        // padding-left: 400px;
     }
 
     .container-gt .grid-child-elem #bannercontent {
@@ -732,11 +733,11 @@
 
         margin-left: 0;
 
-        h1{
+    //     h1{
 
-        padding-left: 300px;
+    //     padding-left: 300px;
 
-    }
+    // }
     }
     
     
@@ -1107,7 +1108,7 @@
             font-size: 70px;
         letter-spacing: 5px;
         padding-top: 0px;
-        padding-left: 200px;
+        // padding-left: 200px;
 
         .bannertxt{
             font-size: 80px
@@ -1203,7 +1204,7 @@
         h1{
             font-size: 40px;
         letter-spacing: 5x;
-        padding-top: 80px;
+        // padding-top: 80px;
         .bannertxt{
             font-size: 40px;
         }
@@ -1563,7 +1564,7 @@
          h1{
              font-size: 70px;
          letter-spacing: 0;
-         padding-top: 140px;
+        //  padding-top: 140px;
          line-height: 65px;
          
 
@@ -1783,8 +1784,9 @@
                 span{
                     font-size: 50px;
                 }
-                padding-left: 0px  ;
-                padding-top: 5em; }  
+                // padding-left: 0px  ;
+                padding-top: 5em;
+             }  
                 
                 #bannerline2 p{
                     font-size: 15px;

@@ -43,18 +43,17 @@ const ATB = (props) => {
                                 content:
                                     `
                                     <p>
-                                    Gary Caplan was born in Philadelphia and earned three bachelor’s degrees from the University of Pittsburgh, later earning M.D. and M.P.H. degrees. He serves as a colonel and preventive medicine officer in the reserves and has published articles in medical journals. Caplan became interested in reading science fiction and fantasy books as a young man and, after practicing medicine for several years, began to write his own fiction. At first strictly a hobby, his writing flourished and he decided to publish both a science fiction and sword and sorcery novels in his spare time.
+                                    Do you like Epic fantasy, do you like adventures that leave you hanging in the edge of your seat? then you will really enjoy reading Prince Gideon.
                                     </p>
                                     `,
-
                                 ebooks: {
                                     // stratton: 'https://www.stratton-press.com/books/heroes-and-villains-california-dreaming-book-i/',
-                                    barnes: 'https://www.barnesandnoble.com/w/prince-gideon-gary-caplan/1140783582?ean=9781648956386',
-                                    amazon: 'https://www.amazon.com/Prince-Gideon-Chronicles-Ill%C3%BAmaril-Vol/dp/1648956386/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1640182688&sr=8-1',
+                                    barnes: 'https://www.barnesandnoble.com/w/prince-gideon-gary-caplan/1140783582?ean=9781648956393',
+                                    amazon: 'https://www.amazon.com/Prince-Gideon-Chronicles-Ill%C3%BAmaril-Vol-ebook/dp/B09NMSTZB7/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1640182688&sr=8-1',
                                 },
                                 paperback: {
-                                    amazon: 'https://www.amazon.com/Prince-Gideon-Chronicles-Ill%C3%BAmaril-Vol-ebook/dp/B09NMSTZB7/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1640182688&sr=8-1',
-                                    barnes: 'https://www.barnesandnoble.com/w/prince-gideon-gary-caplan/1140783582?ean=9781648956393',
+                                    amazon: 'https://www.amazon.com/Prince-Gideon-Chronicles-Ill%C3%BAmaril-Vol/dp/1648956386/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1640182688&sr=8-1',
+                                    barnes: 'https://www.barnesandnoble.com/w/prince-gideon-gary-caplan/1140783582?ean=9781648956386',
                                     booksamillion: 'https://www.booksamillion.com/p/Prince-Gideon/Gary-Caplan/9781648956386?id=8158356429268',
                                 }
                             }}
