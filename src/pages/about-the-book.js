@@ -43,12 +43,12 @@ const ATB = (props) => {
                                 content:
                                     `
                                     <p>
-                                    This story is about a hero who trough hard work and perseverance and with allies has built up two cities in lands that were his ancestral lands. Until recently
-                                    and with a non-aggression treaty in place such construction would not have been possible. Unfortunately close to completion he must leave his city as a situation 
-                                    in the north west calls a muster of several militant Orders including The Order of the Shield that Gideon belongs. Meanwhile at about the same time ancient enemies
-                                    who slew Gideon's ancestors return from their multiplanas travels. These enemies finding the region of Kir reclaimed and cities and towns rebuilt the ancient hunters
-                                    gather an army to lay siege to Kir Kiriath and Kir Barad. While Prince Gideon has to help his allies defend against the northmen's invasion and the return to help his 
-                                    old friends and his new vassals defend their lands from invasion.
+                                        This story is about a hero who through hard work and perseverance and with allies has built up two cities in lands that were his ancestral lands. Until recently
+                                        and with a non-aggression treaty in place such construction would not have been possible. Unfortunately close to completion he must leave his city as a situation 
+                                        in the north west calls a muster of several militant Orders including The Order of the Shield that Gideon belongs. Meanwhile at about the same time ancient enemies
+                                        who slew Gideon's ancestors return from their multiplanas travels. These enemies finding the region of Kir reclaimed and cities and towns rebuilt the ancient hunters
+                                        gather an army to lay siege to Kir Kiriath and Kir Barad. While Prince Gideon has to help his allies defend against the northmen's invasion and the return to help his 
+                                        old friends and his new vassals defend their lands from invasion.
                                     </p>
                                     `,
                                 ebooks: {
